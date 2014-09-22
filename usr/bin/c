@@ -1,0 +1,3 @@
+echo Resetuje polaczenie
+ifdown wan
+ifup wan

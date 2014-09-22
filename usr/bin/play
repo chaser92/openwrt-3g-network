@@ -1,0 +1,7 @@
+echo Ustawiam Play
+uci set network.wan.apn=internet
+uci set network.wan.username=
+uci set network.wan.password=
+uci commit network
+ifdown wan
+ifup wan
